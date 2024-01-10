@@ -440,21 +440,28 @@
         </div>
         <div class="container subscribe">
           <p class="social-media-text">Subscribe</p>
-          <div class="input-section">
-            <form name="signup_form" autocomplete="on" novalidate></form>
-              <label>
-                <input type="email" name="email" placeholder="E-mail" class="subscribe-box"/>
-              </label>
-                  
-                  
-              <button type="submit" class="subscribe-button">
-                Subscribe
-                <svg class="plane-icon" width="24" height="24">
-                  <use href="./images/icons.svg#plane-icon"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
+          <form
+            name="signup_form"
+            autocomplete="on"
+            novalidate
+            class="form-subscribe"
+          >
+            <label class="label-subscribe">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="subscribe-box"
+              />
+            </label>
+
+            <button type="submit" class="subscribe-button">
+              Subscribe
+              <svg class="plane-icon" width="24" height="24">
+                <use href="./images/icons.svg#plane-icon"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
