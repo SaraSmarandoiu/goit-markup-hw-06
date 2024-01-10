@@ -472,8 +472,77 @@
             <use href="./images/icons.svg#close-icon"></use>
           </svg>
         </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="form-div">
+            <label class="name-form" for="user-name">Name</label>
+            <div class="modal-input-div">
+              <input
+                type="text"
+                id="user-name"
+                name="user-name"
+                class="name-modal-input"
+              />
+              <svg width="18" height="24" class="modal-subscribe-icon">
+                <use href="./images/icons.svg#icon-name-icon"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-div">
+            <label class="name-form" for="user-phone">Phone</label>
+            <div class="modal-input-div">
+              <input
+                id="phone"
+                name="user-phone"
+                type="text"
+                class="name-modal-input"
+              />
+              <svg width="18" height="24" class="modal-subscribe-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-div">
+            <label class="name-form" for="user-email">Phone</label>
+            <div class="modal-input-div">
+              <input
+                id="email"
+                name="user-email"
+                type="text"
+                class="name-modal-input"
+              />
+              <svg width="18" height="24" class="modal-subscribe-icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="text-input-box">
+            <label for="user-comment" class="name-form">Comment</label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="textarea-box"
+            ></textarea>
+          </div>
+          <div class="checkbox-div">
+            <input
+              id="user-privacy"
+              name="user-privacy"
+              type="checkbox"
+              class="checkbox-input .visually-hidden"
+              value="true"
+            />
+            <label id="user-privacy" class="label-checkbox">
+              I accept the terms and conditions of the
+              <span class="privacy-word"></span
+            ></label>
+          </div>
+          <button class="send-button">Send</button>
+        </form>
       </div>
     </div>
+
     <script src="./modal/modal.js"></script>
   </body>
 </html>
