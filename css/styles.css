@@ -271,7 +271,6 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -685,7 +684,7 @@ img {
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .name-modal-input:focus {
   border-color: var(--brand-color);
@@ -696,6 +695,9 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#email:focus  .modal-subscribe-icon {
+  fill: var(--brand-color);
 }
 .text-input-box {
   margin-bottom: 16px;
@@ -713,10 +715,10 @@ img {
   padding: 8px 16px;
   outline: transparent;
   resize: none;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .textarea-box:focus {
   border-color: var(--brand-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-div {
   margin-bottom: 24px;
@@ -727,6 +729,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--modal-color);
+}
+#user-privacy:checked .label-checkbox .privacy-word {
+  background-color: var(--focus-color);
+  border: none;
+  fill: var(--word-color);
 }
 .privacy-word {
   width: 16px;
@@ -756,4 +763,7 @@ img {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.privacy.link {
+  color: var(--brand-color);
 }
