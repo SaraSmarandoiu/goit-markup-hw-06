@@ -715,13 +715,15 @@ img {
   padding: 8px 16px;
   outline: transparent;
   resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .textarea-box:focus {
   border-color: var(--brand-color);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-div {
+  position: relative;
   margin-bottom: 24px;
+  display: inline-flex;
 }
 .label-checkbox {
   display: block;
@@ -729,8 +731,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--modal-color);
+  margin-left: 24px;
 }
-#user-privacy:checked .label-checkbox .privacy-word {
+.checkbox-hidden:checked .label-checkbox .terms-svg {
   background-color: var(--focus-color);
   border: none;
   fill: var(--word-color);
@@ -750,6 +753,9 @@ img {
   transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  left: 4px;
+  top: 2px;
 }
 .send-button {
   display: block;
@@ -769,4 +775,7 @@ img {
 }
 .privacy.link {
   color: var(--brand-color);
+}
+.terms-svg {
+  position: absolute;
 }
