@@ -742,6 +742,7 @@ img {
 
 .privacy-word {
   display: inline-flex;
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   align-items: center;
@@ -784,4 +785,8 @@ img {
 .terms-svg {
   position: absolute;
   display: inline-flex;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: 16px;
 }
