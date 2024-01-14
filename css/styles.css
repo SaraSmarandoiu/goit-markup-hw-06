@@ -734,13 +734,12 @@ img {
   color: var(--modal-color);
   margin-left: 24px;
 }
-.visually-hidden.checkbox-hidden:checked + .privacy-word {
+#user-privacy:checked + .label-checkbox .privacy-word {
   background-color: var(--focus-color);
   border: none;
-}
-.visually-hidden.checkbox-hidden:checked + .privacy-word::before {
   fill: var(--word-color);
 }
+
 .privacy-word {
   display: inline-flex;
   width: 16px;
