@@ -734,7 +734,7 @@ img {
   color: var(--modal-color);
   margin-left: 24px;
 }
-.visually-hidden.checkbox-hidden:checked + .privacy-word {
+input:checked + .privacy-word {
   background-color: var(--focus-color);
   border: none;
   fill: var(--word-color);
