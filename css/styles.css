@@ -636,7 +636,7 @@ img {
   background: var(--brand-color);
   color: var(--basic-color);
   text-align: center;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -647,7 +647,6 @@ img {
   height: 40px;
   cursor: pointer;
   border: none;
-  font-family: "Roboto";
 }
 .plane-icon {
   margin-left: 16px;
