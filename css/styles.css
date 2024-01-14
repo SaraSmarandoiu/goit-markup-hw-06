@@ -734,7 +734,7 @@ img {
   color: var(--modal-color);
   margin-left: 24px;
 }
-.checkbox-hidden:checked + .privacy-word {
+.visually-hidden.checkbox-hidden:checked + .privacy-word {
   background-color: var(--focus-color);
   border: none;
   fill: var(--word-color);
@@ -764,7 +764,7 @@ img {
   padding: 16px 32px;
   gap: 10px;
   height: 56px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
