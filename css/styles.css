@@ -636,7 +636,7 @@ img {
   background: var(--brand-color);
   color: var(--basic-color);
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -741,9 +741,9 @@ img {
 }
 
 .privacy-word {
+  display: inline-flex;
   width: 16px;
   height: 16px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
