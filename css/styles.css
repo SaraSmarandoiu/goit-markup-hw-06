@@ -756,6 +756,7 @@ img {
   left: 4px;
   top: 2px;
 }
+
 .send-button {
   display: block;
   margin-left: 119px;
@@ -778,6 +779,7 @@ img {
 }
 .privacy.link {
   color: var(--brand-color);
+  text-decoration-line: underline;
 }
 .terms-svg {
   position: absolute;
