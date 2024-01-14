@@ -757,6 +757,7 @@ img {
   top: 2px;
 }
 .send-button {
+  display: block;
   margin-left: 119px;
   margin-right: 120px;
   min-width: 169px;
