@@ -782,10 +782,9 @@ img {
   text-decoration-line: underline;
 }
 .terms-svg {
-  position: absolute;
   display: inline-flex;
-
   width: 16px;
   height: 16px;
-  margin-top: 16px;
+  left: 4px;
+  top: 1px;
 }
