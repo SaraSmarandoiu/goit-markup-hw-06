@@ -741,6 +741,7 @@ img {
 
 .privacy-word {
   display: inline-flex;
+  position: absolute;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -752,7 +753,6 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  position: absolute;
   left: 4px;
   top: 1px;
 }
