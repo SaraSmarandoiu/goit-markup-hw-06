@@ -783,6 +783,7 @@ img {
 }
 .terms-svg {
   display: inline-flex;
+  position: relative;
   width: 16px;
   height: 16px;
   left: 4px;
