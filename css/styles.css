@@ -722,7 +722,6 @@ img {
   border-color: var(--brand-color);
 }
 .checkbox-div {
-  position: relative;
   margin-bottom: 24px;
 }
 .label-checkbox {
@@ -731,7 +730,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--modal-color);
-  margin-left: 24px;
 }
 #user-privacy:checked + .label-checkbox .privacy-word {
   background-color: var(--focus-color);
@@ -740,21 +738,17 @@ img {
 }
 
 .privacy-word {
-  display: inline-flex;
-  position: absolute;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  left: 4px;
-  top: 1px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .send-button {
